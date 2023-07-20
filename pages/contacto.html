@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Peluquería Adriel</title>
+</head>
+<body>
+    <header>
+        <section class="logo">
+        <div class="logo-pelu">
+            <img src="../assets/images/Black-Hand-Drawn-Retro-Barber-Shop-Logo.svg" width="100%" wheigth="70%" alt="Logo de la peluquería">
+        </div>
+        </section>
+
+        <nav>
+            <hr>
+            <div>
+            <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="cortes.html">Cortes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="">Ubicación</a></li>
+            </ul>
+            </div>
+            <hr>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <div class="titulo">
+            <h1>Formulario de Contacto</h1>
+            <br>
+            <p>!Escríbenos para solicitar su turno!</p>
+            <br>
+            </div>
+        
+            <form class="formu">
+                <div>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input 
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder="Nombre"
+                minlength="2"
+                maxlength="20"
+                class="form1"
+                required
+                autofocus >
+                <br>
+                
+                <label for="corte">Tipo de corte</label>
+
+                <input type="text"
+                name="corte"
+                id="corte"
+                placeholder="Barba, Cabello, o Barba y Cabello"
+                class="form1" >
+                <br> 
+        
+                <label for="email">Email</label>
+                <br>
+                <input type="email" 
+                name="email" id="email"
+                placeholder="Ejemplo@gmail.com"
+                class="form1" 
+                pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required >
+                <br>
+        
+                <label for="password">Contraseña</label>
+                <br>
+                <input 
+                type="password"
+                minlength="5"
+                maxlength="10"
+                placeholder="********"
+                class="form1"
+                >
+                <br>
+
+                
+                <label for="comentarios">Comentarios</label>
+                <br>
+                <textarea 
+                name="comentarios" 
+                id="comentarios" 
+                cols="50" 
+                rows="30"
+                class="comentarios"
+                wrap="hard"
+                >
+                </textarea>
+                <br>
+
+        
+                <br>
+                <button type="submit" class="boton">enviar datos</button>
+                <br>
+
+            </div> 
+            </form>
+        
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="caja">
+                <figure>
+                    <img src="../assets/images/Black-Hand-Drawn-Retro-Barber-Shop-Logo.svg" width="50%" wheigth="70%"  alt="">
+                </figure>
+            </div>
+
+            <div class="texto">
+                <p>¡Visitanos!</p>
+                <p>Estamos ubicados en la calle 12 # 12-12</p>
+                <p>Barrio: Centro</p>
+                <p>Telefono: 1234567</p>
+                <p>Mail: benitezadriel13@gmail.com</p>
+            </div>
+            
+        </section>
+
+
+
+        </footer>
+
+
+    </main>
+
+</body>
+</html>
