@@ -131,6 +131,11 @@ a:hover{
 
 .precios-cortes:hover{
     border-color: rgb(254, 233, 0);
+    font-size: 18px;
+}
+
+.precios-cortes:active{
+    border-color: rgb(0, 230, 0)
 }
 
 .precio{
@@ -179,4 +184,33 @@ a:hover{
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+}
+
+
+/* css ubicación */
+
+.ubicacion{
+    background-color: #4b494674;
+
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-ubi{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 20px;
 }
